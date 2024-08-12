@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+        <div class="container">
+         
+              <h1 class="todos-heading">Todo List</h1>
+
+              <img src="./emptyimg.png" class="image" alt="default img">
+
+            <div class="todoCard"> 
+                <h2 class="toDoItemHeading"  contenteditable="true">
+                   
+                </h2>
+                <p class="toDoItemDescription" contenteditable="true"> </p>
+               <span> 
+                <label for="dateValue">Due Date: </label>
+                <input type="date" name="dateValue" class="input-date" id="inputDate">
+               </span>
+            
+                <button class="button" id="addTodoButton">Add</button>
+            </div>
+              
+              
+            <h2 class=" taskHeading ">My Todo Tasks</h2>
+              <ul class="todo-items-container" id="todoItemsContainer"></ul>
+              <button class="button" id="saveTodoButton">Save</button>
+        </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

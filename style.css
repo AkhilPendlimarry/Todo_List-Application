@@ -1,0 +1,142 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #efe5e5;
+  margin: 50px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+} 
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(26, 25, 25, 0.1);
+  width: 1200px;
+  height: 1200px;
+}
+
+.todos-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  margin: 0 auto 20px;
+  width: 200px;
+}
+
+.todoCard {
+  margin-bottom: 20px;
+}
+
+.toDoItemHeading, .toDoItemDescription {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  width: 50%;
+}
+
+label{
+  font-size: 24px;
+}
+
+.input-date {
+  width: 50%;
+  font-size: 26px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #989494;
+}
+
+.button {
+  width: 20%;
+  background-color: #007BFF;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.taskHeading {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-item-heading {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.todo-item-description {
+  margin: 0;
+  font-size: 24px;
+  color: #555;
+}
+
+.todo-item-checkbox {
+  margin-right: 10px;
+  width: 100px;
+  height: 20px;
+}
+
+
+.delete-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 80px;
+  color: red;
+  transition: color 0.3s;
+}
+
+.delete-icon:hover {
+  color: rgb(20, 20, 20);
+}
+
+
+.red-bg {
+  background-color: red;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}
